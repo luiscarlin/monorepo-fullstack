@@ -1,0 +1,10 @@
+{
+  "name": "monorepo-fullstack",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "web",
+      "Mobile"
+    ]
+  }
+}
