@@ -4,7 +4,11 @@
   "workspaces": {
     "packages": [
       "web",
-      "Mobile"
+      "mobile"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
     ]
   }
 }
